@@ -1,0 +1,66 @@
+/* Tab Nav #1 */
+
+.tab-icon-door {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    fill: var(--main-grey);
+}
+
+/* Tab Nav #2 */
+
+.tab-icon-devices {
+    width: 9.6875rem;
+    height: 9.6875rem;
+    fill: var(--main-grey);
+}
+
+/* Tab Nav #3 */
+
+.tab-icon-price {
+    width: 4.375rem;
+    height: 4.375rem;
+    fill: var(--main-grey);
+}
+
+/* Tabs */
+
+.Tabs {
+    padding-top: 1rem;
+}
+
+/* Tab Nav */
+
+.TabsList {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1;
+    list-style-type: none;
+    color: var(--main-grey);
+    margin: 0 12%;
+}
+
+/* Tab Nav hover */
+
+ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+ul li:hover svg path {
+    fill: #fff;
+}
+
+/* Active Tab nav */
+.active{
+    border-bottom: 4px solid var(--main-red);
+}
+
+.tab-selected{
+    color: #fff;
+}
+.tab-selected svg{
+    fill: #fff;
+}
