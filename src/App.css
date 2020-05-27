@@ -33,7 +33,7 @@ a {
   position: relative;
   background: radial-gradient(rgba(0, 0, 0, 0));
   background-color: rgba(0, 0, 0.0.7, );
-  background-image: url(../src/images/bg.jpg);
+  background-image: url(../src/images/newbg.jpg);
   background-position: center center/cover;
   background-repeat: no-repeat;
 }
@@ -48,5 +48,30 @@ a {
   background: rgba(0, 0, 0, 0.5);
   /* box-shadow: inset 4.375rem 3.125rem 11.875rem #000, inset -4.375rem -3.125rem -11.875rem; */
   box-shadow: inset 4.375rem 3.125rem 11.875rem #000000;
-  box-shadow:-4.375rem -3.125rem -11.875rem;
+  box-shadow: -4.375rem -3.125rem -11.875rem;
 }
+
+.header-container h3{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  color: #fff;
+}
+
+.EmailDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EmailDiv input{
+  min-width: 500px;
+  height: 80px;
+}
+
+.EmailDiv input::placeholder{
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+

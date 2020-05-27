@@ -62,17 +62,17 @@ function SecondTabContent() {
                 {/* Tab content */}
                 <div className="tab-bottom-content">
                     <div>
-                        <img src={ImgTv} style={{ width: '18.75rem' }} />
+                        <img src={ImgTv} style={{ width: '18.75rem' }} alt="Tv"/>
                         <h3>Watch on your TV</h3>
                         <p>Amet clita lorem eirmod dolor amet invidunt tempor voluptua stet. Dolore consetetur accusam sanctus elitr. Amet lorem ipsum sea sed,.</p>
                     </div>
                     <div>
-                        <img src={ImgTablet} style={{ width: '18.75rem', paddingTop: '0.625rem' }} />
+                        <img src={ImgTablet} style={{ width: '18.75rem', paddingTop: '0.625rem' }} alt="Tablet" />
                         <h3>Watch on your TV</h3>
                         <p>Amet clita lorem eirmod dolor amet invidunt tempor voluptua stet. Dolore consetetur accusam sanctus elitr. Amet lorem ipsum sea sed,.</p>
                     </div>
                     <div>
-                        <img src={ImgMacBook} style={{ width: '18.75rem', paddingTop: '0.625rem', paddingBottom: '0.625rem' }} />
+                        <img src={ImgMacBook} style={{ width: '18.75rem', paddingTop: '0.625rem', paddingBottom: '0.625rem' }} alt="Mac"/>
                         <h3>Watch on your TV</h3>
                         <p>Amet clita lorem eirmod dolor amet invidunt tempor voluptua stet. Dolore consetetur accusam sanctus elitr. Amet lorem ipsum sea sed,.</p>
                     </div>

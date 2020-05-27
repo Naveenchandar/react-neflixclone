@@ -1,0 +1,14 @@
+.box img{
+    height: 5em;
+}
+.box::after{
+    background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') center center no-repeat;
+    background-size: 100%;
+    content: '';
+    outline: 2px solid black;
+    outline-offset: -2px;
+    display: block;
+    height: 3em;
+    width: 3em;
+    margin-left: 20%;
+}

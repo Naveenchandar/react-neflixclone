@@ -40,7 +40,7 @@ function FirstTabContent() {
                             Try it now.
                     </Button>
                     </div>
-                    <img src={Tab1Img} />
+                    <img src={Tab1Img} alt="First tab"/>
                 </div>
             </div>
         </TabContentContainer>

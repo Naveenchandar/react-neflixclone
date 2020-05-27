@@ -8,7 +8,9 @@ import { ic_keyboard_arrow_right } from 'react-icons-kit/md/ic_keyboard_arrow_ri
 const HeaderComponent = styled.div`
     .signin-btn{
         right:0;
-        margin:1.125rem 3% 0;
+        color: #fff;
+        border:none;
+        margin:1rem 2% 0;
         padding:0.4375rem 1.0625rem;
         font-weight:400;
         line-height:normal;
@@ -29,13 +31,15 @@ const HeaderComponent = styled.div`
             position:relative;
             height:10rem;
             z-index:1;
+            padding-top:20px;
+            margin: 0 3.5rem;
         }
 
         /* Header Content */
         .header-content{
             width:65%;
             position:relative;;
-            margin:4.5rem auto 0;
+            margin:8rem auto 0;
             display: flex;
             justify-content:center;
             align-content:center;
@@ -52,8 +56,8 @@ const HeaderComponent = styled.div`
             text-transform:uppercase;
             border:none;
             outline:none;
-            margin:0 33%;
-            padding:1.5rem;
+            margin:0 0%;
+            padding:1rem;
             border-radius:0.1875rem;
             font-size:2rem;
             text-align:center;
@@ -69,20 +73,22 @@ const HeaderComponent = styled.div`
         /* Icon */
         .Icon Svg{
             vertical-align:bottom;
-            margin-left:1.5rem;
+            /* margin-left:1.5rem; */
+            margin-top:-6px;
         }
 `
 const Logo = styled.img`
     width:10rem;
     height:3.5rem;
     position: absolute;
-    top:25%;
+    top:40%;
     left:5%;
     transform:translate(-50%,-50%);
 `
 const Title = styled.h1`
-    margin:0 0 1.2rem;
-    font-size: 5rem;
+    /* margin:0 0 1.2rem; */
+    margin:0 9rem 1.2rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1.1em;
 `
@@ -92,7 +98,6 @@ const SubTitle = styled.h2`
     font-size:1.875rem;
     line-height:1.25em;
     margin: 0 0 1.875rem;
-    text-transform: uppercase;
 `
 
 function Header() {
@@ -111,11 +116,15 @@ function Header() {
                 <SubTitle>
                     Watch anywhere. Cancel anytime.
                 </SubTitle>
-                <label className='main-offer-btn'>
-                    TRY IT NOW
+                <div className="EmailDiv">
+                    <input type="email" name="email" class="nfTextField" placeholder="Email address" value="" autocomplete="email" maxlength="50" minlength="5" />
+                    <label className='main-offer-btn'>
+                        TRY IT NOW
                     <Icon className="Icon" icon={ic_keyboard_arrow_right} size={37} />
-                </label>
+                    </label>
+                </div>
             </div>
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
         </HeaderComponent>
     )
 }
