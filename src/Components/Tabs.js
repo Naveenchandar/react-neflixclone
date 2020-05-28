@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NewFirstTab from './NewFirstTab';
 import NewSecondTab from './SecondTab';
+import NewThirdTab from './ThirdTab';
 import '../Css/TabsNav.css'
 
 function TabComponent() {
@@ -8,6 +9,7 @@ function TabComponent() {
         <div>
             <NewFirstTab/>
             <NewSecondTab/>
+            <NewThirdTab/>
         </div>
     )
 }

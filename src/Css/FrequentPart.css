@@ -1,0 +1,95 @@
+.FrequentPart {
+    padding: 45px 99px;
+}
+
+.FrequentPart h1 {
+    text-align: center;
+}
+
+.accordion {
+    width: 60%;
+    margin: 2em auto;
+}
+
+.accordion__button {
+    padding: .8em 2.2em .8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+    display: block;
+    text-align: left;
+    background: #303030;
+    color: #fff;
+    font-size: 1.625rem;
+}
+
+.accordion__item {
+    margin: 0 0 8px 0;
+}
+
+.accordion__button:hover {
+    background: #5f5f5f;
+}
+
+.accordion__button:focus {
+    outline: none;
+}
+
+.accordion__button:before {
+    display: none;
+}
+
+.PlusIcon {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1em;
+    width: 1em;
+    fill: #fff;
+}
+
+.main-offer2-btn {
+    display: inline-block;
+    background: var(--main-red);
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin: 0 0%;
+    padding: 1rem;
+    border-radius: 0.1875rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    transition: background 0.2s ease-in;
+    cursor: pointer;
+}
+
+.main-offer2-btn:hover {
+    background: var(--main-red-hover);
+}
+
+.EmailDiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EmailDiv2 input {
+    min-width: 600px;
+    height: 80px;
+}
+
+.EmailDiv2 input::placeholder {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+.accordion__panel{
+    background: #303030;
+    padding: 1.2em;
+    font-size: 1.625rem;
+}

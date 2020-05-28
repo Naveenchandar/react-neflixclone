@@ -36,6 +36,7 @@ a {
   background-image: url(../src/images/newbg.jpg);
   background-position: center center/cover;
   background-repeat: no-repeat;
+  border-bottom: 8px solid #222;
 }
 
 .header-container::after {
