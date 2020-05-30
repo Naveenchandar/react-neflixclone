@@ -12,10 +12,10 @@ function NewSecondTab() {
     }
     const boxStyle={
         position: 'absolute',
-        top: '200%',
+        top: '210%',
         display: 'flex',
         alignItems: 'flex-end',
-        left: '24%',
+        left: '23%',
         width: '20%',
         background: 'black',
         border: '2px solid grey',
@@ -23,10 +23,10 @@ function NewSecondTab() {
         padding: '0.5em 0.75em'
     }
     return (
-        <section className="tvsection">
-            <div className="first-tab">
-                <div className="tab-one-img">
-                    <div className="tv-img">
+        <section className="mobilesection">
+            <div className="second-tab">
+                <div className="tab-two-img">
+                    <div className="mobile-img">
                         <img alt="" class="story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" />
                     </div>
                     <div className="box" style={boxStyle}>
@@ -36,13 +36,8 @@ function NewSecondTab() {
                             <div className="text-2" style={{color:'#0071eb'}}>&ensp;&ensp;&ensp;Downloading...</div>
                         </div>
                     </div>
-                    <div className="tv-player">
-                        <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="" style={videoStyle}>
-                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" />
-                        </video>
-                    </div>
                 </div>
-                <div className="tab-one-content">
+                <div className="tab-two-content">
                     <h1>
                         Download your shows to watch offline.
                 </h1>

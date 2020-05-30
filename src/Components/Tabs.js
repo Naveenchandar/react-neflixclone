@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import NewFirstTab from './NewFirstTab';
 import NewSecondTab from './SecondTab';
 import NewThirdTab from './ThirdTab';
-import '../Css/TabsNav.css'
+import '../Css/TabsNav.css';
 
 function TabComponent() {
     return (

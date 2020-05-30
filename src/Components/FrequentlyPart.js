@@ -125,7 +125,7 @@ function FrequentlyPart() {
                     </AccordionItem>
                 </Accordion>
                 <div className="EmailDiv2">
-                    <input type="email" name="email" placeholder="Email address" value="" autocomplete="email" maxlength="50" minlength="5" />
+                    <input type="email" name="email" placeholder="Email address" value="" autoComplete="email" maxLength="50" minLength="5" />
                     <label className='main-offer2-btn'>
                         TRY IT NOW
                     <Icon className="Icon" icon={ic_keyboard_arrow_right} size={37} />

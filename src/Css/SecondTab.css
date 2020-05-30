@@ -12,3 +12,31 @@
     width: 3em;
     margin-left: 20%;
 }
+
+.second-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 99px;
+    background: black;
+}
+
+.tab-two-content{
+    max-width: 550px;
+}
+
+.tab-two-content h1{
+    font-size: 3.125rem;
+}
+
+.tab-two-content h2{
+    font-size: 1.625rem;
+}
+
+.story-card-img{
+    height: 400px;
+}
+
+.mobilesection{
+    border-bottom: 8px solid #222;
+}

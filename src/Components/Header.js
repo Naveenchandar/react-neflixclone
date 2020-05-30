@@ -117,7 +117,7 @@ function Header() {
                     Watch anywhere. Cancel anytime.
                 </SubTitle>
                 <div className="EmailDiv">
-                    <input type="email" name="email" class="nfTextField" placeholder="Email address" value="" autocomplete="email" maxlength="50" minlength="5" />
+                    <input type="email" name="email" className="nfTextField" placeholder="Email address" value="" autoComplete="email" maxLength="50" minLength="5" />
                     <label className='main-offer-btn'>
                         TRY IT NOW
                     <Icon className="Icon" icon={ic_keyboard_arrow_right} size={37} />

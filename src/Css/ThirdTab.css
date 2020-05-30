@@ -2,3 +2,33 @@
     position: relative;
     z-index: 2;
 }
+
+.third-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 99px;
+    background: black;
+}
+
+.tab-third-content{
+    max-width: 550px;
+}
+
+.tab-third-content h1{
+    font-size: 3.125rem;
+}
+
+.tab-third-content h2{
+    font-size: 1.625rem;
+}
+
+.story3-card-img{
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+.desktopsection{
+    border-bottom: 8px solid #222;
+}

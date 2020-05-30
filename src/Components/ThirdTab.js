@@ -2,18 +2,18 @@ import React from 'react';
 import '../Css/FirstTab.css';
 import '../Css/ThirdTab.css';
 
-function NewFirstTab() {
+function NewThirdTab() {
     const videostyle = {
         position: 'absolute',
-        right: '409px',
+        right: '203px',
         width: '326px',
-        paddingTop: '88px',
-        top:'112rem'
+        // paddingTop: '88px',
+        top:'113rem'
     }
     return (
-        <section className="tvsection">
-            <div className="first-tab">
-                <div className="tab-one-content">
+        <section className="desktopsection">
+            <div className="third-tab">
+                <div className="tab-three-content">
                     <h1>
                     Watch everywhere.
                 </h1>
@@ -22,10 +22,10 @@ function NewFirstTab() {
                 </h2>
                 </div>
                 <div className="tab-three-img">
-                    <div className="tvthree-img">
-                        <img alt="" class="story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" />
+                    <div className="desktopthree-img">
+                        <img alt="" class="story3-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" />
                     </div>
-                    <div className="tv-player">
+                    <div className="desktop-player">
                         <video class="our-story-card-video" autoplay="" playsinline="" muted="" loop="" style={videostyle}>
                             <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4" />
                         </video>
@@ -36,4 +36,4 @@ function NewFirstTab() {
     )
 }
 
-export default NewFirstTab;
+export default NewThirdTab;

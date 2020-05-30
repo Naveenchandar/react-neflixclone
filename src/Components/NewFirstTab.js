@@ -1,13 +1,13 @@
 import React from 'react';
-import '../Css/FirstTab.css'
+import '../Css/FirstTab.css';
 
 function NewFirstTab() {
     const videoStyle = {
         position: 'absolute',
-        right: '377px',
+        right: '293px',
         width: '388px',
-        paddingTop: '80px',
-        top:'53.75rem'
+        // paddingTop: '80px',
+        top:'53.65rem'
     }
     return (
         <section className="tvsection">
